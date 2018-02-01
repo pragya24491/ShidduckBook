@@ -352,7 +352,6 @@ public class MainFragment extends Fragment implements OnStartDragListener, MainA
         String text = view.getText().toString();
         Log.v(TAG, "Text fjddfidbfd :- " + text);*/
 
-
         ImageView searchMagIcon = (ImageView) searchView.findViewById(android.support.v7.appcompat.R.id.search_button);
         searchMagIcon.setImageResource(R.drawable.ic_arrow_back_white_24dp);
 

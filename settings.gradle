@@ -1,0 +1,3 @@
+include ':app'
+include 'app', 'appintro'
+project(':appintro').projectDir = new File('libs/appintro')
