@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Shidduch Book</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_home">" "</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_register">" "</string>
+    <string name="title_activity_login">" "</string>
+    <string name="title_activity_main">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main_activitysdsda">MainActivitysdsda</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="register_recommend"><u>Register As Recommender</u></string>
+
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_my__profile">My Profile</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="array_date">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="array_month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="array_year">
+        <item>1975</item>
+        <item>1976</item>
+        <item>1977</item>
+        <item>1978</item>
+        <item>1979</item>
+        <item>1980</item>
+        <item>1981</item>
+        <item>1982</item>
+        <item>1983</item>
+        <item>1984</item>
+        <item>1985</item>
+        <item>1986</item>
+        <item>1987</item>
+        <item>1988</item>
+        <item>1989</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+    </string-array>
+
+    <string-array name="array_teshuva">
+        <item>No</item>
+        <item>Yes, from before Bar/Bat Mitzvah</item>
+        <item>Yes, from after Bar/Bat Mitzvah</item>
+        <item>Yes, since i was 18+</item>
+    </string-array>
+
+    <string-array name="array_language">
+        <item>English</item>
+        <item>Hebrew</item>
+        <item>Dutch</item>
+        <item>French</item>
+        <item>Hungrarian</item>
+        <item>Italian</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+        <item>Yiddish</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="array_test">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string name="title_activity_edit_profile">User Details</string>
+
+
+    <string name="popup_string">You have the option to make a \"recommendation\" as a third party and the request will be made anonymously. This is similar to a Shadchan asking for someones profile and not saying who made the request. Your own profile is automatically shared with the other party when making a request. Please keep in mind that a public request, on the other hand, will usually be treated by the other party with more importance.
+</string>
+
+
+    <string name="preview_string">Please enter your profile details in the previous pages in order to preview it here.
+Please use the privacy toggles to publish items to your public profile for everyone to see. Items kept private will only be shared on a personal basis.
+Pragya when you leave logut the tracker so that i can work on it
+</string>
+    <string name="title_activity_recommend__home_">Recommend_Home_Activity</string>
+    <string name="title_activity_traits_filter">Traits</string>
+    <string name="title_activity_verification">Verification</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>

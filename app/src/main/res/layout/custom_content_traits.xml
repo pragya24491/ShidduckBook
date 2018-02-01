@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/_5sdp"
+    android:paddingBottom="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+
+    <com.shidduckbook.Util.CircleCheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_40sdp"
+        android:buttonTint="@color/colorAccent"
+        android:paddingLeft="@dimen/_2sdp"
+        android:textColor="@color/black_overlay"
+        app:borderThickness="2dp"
+        android:textAlignment="gravity"
+        android:layout_gravity="center"
+        app:circleBorderColor="@color/colorAccent"
+        app:innerCircleColor="@color/colorAccent"
+        app:innerCircleRadius="8dp"
+        app:outerCircleColor="@color/colorAccent"
+        app:outerCircleRadius="2dp"
+        app:showOuterCircle="false"
+        app:text="Adventourous"
+        android:clickable="false"
+        app:textColor="@color/black_overlay"
+        app:textLeftPadding="8dp"
+        app:textSize="@dimen/_16sdp"
+        app:tickColor="#ffffff"
+        app:tickThickness="1dp" />
+
+
+</LinearLayout>

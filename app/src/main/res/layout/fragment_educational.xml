@@ -1,0 +1,222 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/color_white"
+    app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+    tools:context="com.shidduckbook.Fragment.EducationalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_16sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Education :"
+            android:textSize="@dimen/_16sdp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <EditText
+                android:id="@+id/input_elementaryschool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Elementary School"
+                android:inputType="textCapWords"
+                android:textColor="@color/black_overlay" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_lname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_highschool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="High School"
+                android:inputType="textPersonName|textCapWords"
+                android:textColor="@color/black_overlay" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_fathername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_yeshiva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Yeshiva"
+                android:inputType="textPersonName|textCapWords"
+                android:textColor="@color/black_overlay" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Descride your Yeshiva, Camp, Shlichus and Smicha experiences :"
+            android:textSize="@dimen/_16sdp" />
+
+        <EditText
+            android:id="@+id/editText_description"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/edittext_background"
+            android:cursorVisible="true"
+            android:gravity="start"
+            android:hint="Enter Description..."
+            android:nestedScrollingEnabled="true"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:singleLine="false" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Language :"
+            android:textSize="@dimen/_16sdp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_overlay"
+                android:layout_gravity="center"
+                android:text="Mother Tongue"/>
+
+            <TextView
+                android:id="@+id/motherTongueSpin"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_19sdp"
+                android:hint="Select"
+                android:padding="@dimen/_3sdp"
+                android:background="@drawable/edittext_background"
+                android:gravity="center"
+                android:drawableRight="@drawable/ic_keyboard_arrow_down_grey_600_24dp"
+                android:layout_marginTop="@dimen/_5sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_overlay"
+                android:layout_gravity="center"
+                android:text="Other Language"/>
+
+            <TextView
+                android:id="@+id/otherlangSpin"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:hint="Select"
+                android:padding="@dimen/_3sdp"
+                android:background="@drawable/edittext_background"
+                android:gravity="center"
+                android:drawableRight="@drawable/ic_keyboard_arrow_down_grey_600_24dp"
+                android:layout_marginTop="@dimen/_5sdp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_overlay"
+                android:layout_gravity="center"
+                android:text="Other Language"/>
+
+            <TextView
+                android:id="@+id/otherlangSpin1"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="wrap_content"
+                android:hint="Select"
+                android:padding="@dimen/_3sdp"
+                android:background="@drawable/edittext_background"
+                android:gravity="center"
+                android:drawableRight="@drawable/ic_keyboard_arrow_down_grey_600_24dp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_5sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:text="* This Information can be updated any time"
+                android:textSize="@dimen/_14sdp" />
+
+            <Button
+                android:id="@+id/update_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rectangle_blue"
+                android:gravity="center"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="@color/color_white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

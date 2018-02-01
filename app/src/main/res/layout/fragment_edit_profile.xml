@@ -1,0 +1,173 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shidduckbook.Fragment.EditProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/userImageView"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/pro_icon"
+                    android:gravity="start" />
+
+                <ImageView
+                    android:id="@+id/editImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/userImageView"
+                    android:layout_alignEnd="@+id/userImageView"
+                    android:layout_alignRight="@+id/userImageView"
+                    android:background="@drawable/ic_mode_edit_grey_600_24dp"
+                    android:padding="@dimen/_4sdp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Image Expansion" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radioYes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Yes"
+                        android:textColor="@color/black_overlay"
+                        app:buttonTint="@color/colorAccent" />
+
+                    <RadioButton
+                        android:id="@+id/radioNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:checked="true"
+                        android:text="No"
+                        android:textColor="@color/black_overlay"
+                        app:buttonTint="@color/colorAccent" />
+
+                </RadioGroup>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="Set privacy to your profile picture" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:checked="true"
+                        android:text="Only to people i shared my resume with"
+                        android:textColor="@color/black_overlay"
+                        app:buttonTint="@color/colorAccent" />
+
+                    <RadioButton
+                        android:id="@+id/radio2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Nobody"
+                        android:textColor="@color/black_overlay"
+                        app:buttonTint="@color/colorAccent" />
+
+                    <RadioButton
+                        android:id="@+id/radio3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Only to people I'm interested in"
+                        android:textColor="@color/black_overlay"
+                        app:buttonTint="@color/colorAccent" />
+
+                    <RadioButton
+                        android:id="@+id/radio4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Only to that matches my character traits"
+                        android:textColor="@color/black_overlay"
+                        app:buttonTint="@color/colorAccent" />
+
+                    <RadioButton
+                        android:id="@+id/radio5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorAccent"
+                        android:text="Everybody"
+                        android:textColor="@color/black_overlay"
+                        app:buttonTint="@color/colorAccent" />
+
+
+                </RadioGroup>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/update_btn"
+                        android:layout_width="@dimen/_200sdp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/rectangle_blue"
+                        android:gravity="center"
+                        android:text="Update"
+                        android:textAllCaps="false"
+                        android:textColor="@color/color_white" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
